@@ -1,5 +1,9 @@
 version: 1.0.0.{build}
 image: Visual Studio 2017
+
+init:
+- appveyor version
+
 services: mssql2017
 build: off
 artifacts:
